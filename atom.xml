@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-03-01T02:53:29.044Z</updated>
+  <updated>2024-03-03T06:42:12.047Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,20 +17,43 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>动态规划</title>
-    <link href="http://example.com/undefined/a80d0031.html"/>
-    <id>http://example.com/undefined/a80d0031.html</id>
-    <published>2024-03-01T01:28:05.000Z</published>
-    <updated>2024-03-01T02:53:29.044Z</updated>
+    <title>贪心算法</title>
+    <link href="http://example.com/undefined/a4ce31d2.html"/>
+    <id>http://example.com/undefined/a4ce31d2.html</id>
+    <published>2024-03-03T01:28:05.000Z</published>
+    <updated>2024-03-03T06:42:12.047Z</updated>
     
-    <content type="html"><![CDATA[<div class="tip home"><p>默认情况</p></div>]]></content>
+    <content type="html"><![CDATA[<div class="tip home"><p>贪心算法</p></div>]]></content>
     
     
       
       
-    <summary type="html">&lt;div class=&quot;tip home&quot;&gt;&lt;p&gt;默认情况&lt;/p&gt;
+    <summary type="html">&lt;div class=&quot;tip home&quot;&gt;&lt;p&gt;贪心算法&lt;/p&gt;
 &lt;/div&gt;
 </summary>
+      
+    
+    
+    
+    
+    <category term="学习" scheme="http://example.com/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>力扣每日一题-H指数</title>
+    <link href="http://example.com/undefined/7af7bd0.html"/>
+    <id>http://example.com/undefined/7af7bd0.html</id>
+    <published>2024-03-01T01:28:05.000Z</published>
+    <updated>2024-03-03T06:42:12.044Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="力扣练习"><a href="#力扣练习" class="headerlink" title="力扣练习"></a>力扣练习</h1><p>H指数</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> 面试经典<span class="number">150</span>题;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.Arrays;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">H</span>指数 &#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="type">int</span> <span class="title function_">hIndex</span><span class="params">(<span class="type">int</span>[] citations)</span> &#123;</span><br><span class="line">        <span class="type">int</span> <span class="variable">res</span> <span class="operator">=</span> <span class="number">0</span>,len = citations.length;</span><br><span class="line">        Arrays.sort(citations);</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> len-<span class="number">1</span>; i &gt;=<span class="number">0</span>; i--) &#123;</span><br><span class="line">            <span class="keyword">if</span> (citations[i]&gt;res)&#123;</span><br><span class="line">                res++;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> res;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        <span class="type">int</span>[] citations = &#123;<span class="number">3</span>,<span class="number">0</span>,<span class="number">6</span>,<span class="number">1</span>,<span class="number">5</span>&#125;;</span><br><span class="line">        H指数 h指数 = <span class="keyword">new</span> <span class="title class_">H</span>指数();</span><br><span class="line">        System.out.println(h指数.hIndex(citations));</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;力扣练习&quot;&gt;&lt;a href=&quot;#力扣练习&quot; class=&quot;headerlink&quot; title=&quot;力扣练习&quot;&gt;&lt;/a&gt;力扣练习&lt;/h1&gt;&lt;p&gt;H指数&lt;/p&gt;
+&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;g</summary>
       
     
     
@@ -45,223 +68,7 @@
     <link href="http://example.com/undefined/a80d0031.html"/>
     <id>http://example.com/undefined/a80d0031.html</id>
     <published>2024-03-01T01:28:05.000Z</published>
-    <updated>2024-03-01T02:53:29.044Z</updated>
-    
-    <content type="html"><![CDATA[<div class="tip home"><p>默认情况</p></div>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;div class=&quot;tip home&quot;&gt;&lt;p&gt;默认情况&lt;/p&gt;
-&lt;/div&gt;
-</summary>
-      
-    
-    
-    
-    
-    <category term="学习" scheme="http://example.com/tags/%E5%AD%A6%E4%B9%A0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>动态规划</title>
-    <link href="http://example.com/undefined/a80d0031.html"/>
-    <id>http://example.com/undefined/a80d0031.html</id>
-    <published>2024-03-01T01:28:05.000Z</published>
-    <updated>2024-03-01T02:53:29.044Z</updated>
-    
-    <content type="html"><![CDATA[<div class="tip home"><p>默认情况</p></div>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;div class=&quot;tip home&quot;&gt;&lt;p&gt;默认情况&lt;/p&gt;
-&lt;/div&gt;
-</summary>
-      
-    
-    
-    
-    
-    <category term="学习" scheme="http://example.com/tags/%E5%AD%A6%E4%B9%A0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>动态规划</title>
-    <link href="http://example.com/undefined/a80d0031.html"/>
-    <id>http://example.com/undefined/a80d0031.html</id>
-    <published>2024-03-01T01:28:05.000Z</published>
-    <updated>2024-03-01T02:53:29.044Z</updated>
-    
-    <content type="html"><![CDATA[<div class="tip home"><p>默认情况</p></div>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;div class=&quot;tip home&quot;&gt;&lt;p&gt;默认情况&lt;/p&gt;
-&lt;/div&gt;
-</summary>
-      
-    
-    
-    
-    
-    <category term="学习" scheme="http://example.com/tags/%E5%AD%A6%E4%B9%A0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>动态规划</title>
-    <link href="http://example.com/undefined/a80d0031.html"/>
-    <id>http://example.com/undefined/a80d0031.html</id>
-    <published>2024-03-01T01:28:05.000Z</published>
-    <updated>2024-03-01T02:53:29.044Z</updated>
-    
-    <content type="html"><![CDATA[<div class="tip home"><p>默认情况</p></div>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;div class=&quot;tip home&quot;&gt;&lt;p&gt;默认情况&lt;/p&gt;
-&lt;/div&gt;
-</summary>
-      
-    
-    
-    
-    
-    <category term="学习" scheme="http://example.com/tags/%E5%AD%A6%E4%B9%A0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>动态规划</title>
-    <link href="http://example.com/undefined/a80d0031.html"/>
-    <id>http://example.com/undefined/a80d0031.html</id>
-    <published>2024-03-01T01:28:05.000Z</published>
-    <updated>2024-03-01T02:53:29.044Z</updated>
-    
-    <content type="html"><![CDATA[<div class="tip home"><p>默认情况</p></div>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;div class=&quot;tip home&quot;&gt;&lt;p&gt;默认情况&lt;/p&gt;
-&lt;/div&gt;
-</summary>
-      
-    
-    
-    
-    
-    <category term="学习" scheme="http://example.com/tags/%E5%AD%A6%E4%B9%A0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>动态规划</title>
-    <link href="http://example.com/undefined/a80d0031.html"/>
-    <id>http://example.com/undefined/a80d0031.html</id>
-    <published>2024-03-01T01:28:05.000Z</published>
-    <updated>2024-03-01T02:53:29.044Z</updated>
-    
-    <content type="html"><![CDATA[<div class="tip home"><p>默认情况</p></div>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;div class=&quot;tip home&quot;&gt;&lt;p&gt;默认情况&lt;/p&gt;
-&lt;/div&gt;
-</summary>
-      
-    
-    
-    
-    
-    <category term="学习" scheme="http://example.com/tags/%E5%AD%A6%E4%B9%A0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>动态规划</title>
-    <link href="http://example.com/undefined/a80d0031.html"/>
-    <id>http://example.com/undefined/a80d0031.html</id>
-    <published>2024-03-01T01:28:05.000Z</published>
-    <updated>2024-03-01T02:53:29.044Z</updated>
-    
-    <content type="html"><![CDATA[<div class="tip home"><p>默认情况</p></div>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;div class=&quot;tip home&quot;&gt;&lt;p&gt;默认情况&lt;/p&gt;
-&lt;/div&gt;
-</summary>
-      
-    
-    
-    
-    
-    <category term="学习" scheme="http://example.com/tags/%E5%AD%A6%E4%B9%A0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>动态规划</title>
-    <link href="http://example.com/undefined/a80d0031.html"/>
-    <id>http://example.com/undefined/a80d0031.html</id>
-    <published>2024-03-01T01:28:05.000Z</published>
-    <updated>2024-03-01T02:53:29.044Z</updated>
-    
-    <content type="html"><![CDATA[<div class="tip home"><p>默认情况</p></div>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;div class=&quot;tip home&quot;&gt;&lt;p&gt;默认情况&lt;/p&gt;
-&lt;/div&gt;
-</summary>
-      
-    
-    
-    
-    
-    <category term="学习" scheme="http://example.com/tags/%E5%AD%A6%E4%B9%A0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>动态规划</title>
-    <link href="http://example.com/undefined/a80d0031.html"/>
-    <id>http://example.com/undefined/a80d0031.html</id>
-    <published>2024-03-01T01:28:05.000Z</published>
-    <updated>2024-03-01T02:53:29.044Z</updated>
-    
-    <content type="html"><![CDATA[<div class="tip home"><p>默认情况</p></div>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;div class=&quot;tip home&quot;&gt;&lt;p&gt;默认情况&lt;/p&gt;
-&lt;/div&gt;
-</summary>
-      
-    
-    
-    
-    
-    <category term="学习" scheme="http://example.com/tags/%E5%AD%A6%E4%B9%A0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>动态规划</title>
-    <link href="http://example.com/undefined/a80d0031.html"/>
-    <id>http://example.com/undefined/a80d0031.html</id>
-    <published>2024-03-01T01:28:05.000Z</published>
-    <updated>2024-03-01T02:53:29.044Z</updated>
+    <updated>2024-03-03T06:42:12.046Z</updated>
     
     <content type="html"><![CDATA[<div class="tip home"><p>默认情况</p></div>]]></content>
     
